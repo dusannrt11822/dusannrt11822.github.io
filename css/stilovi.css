@@ -1,0 +1,87 @@
+.btn-outline-dark:hover{
+    background-color: #d9534f !important;
+
+}
+
+body{
+    overflow-x: hidden;
+}
+
+ul.navbar-nav>li>a{
+    letter-spacing: 0.2rem;
+    text-transform: uppercase;
+}
+ul.navbar-nav>li.nav-item.dropdown>.dropdown-menu>li>a{
+    letter-spacing: 0.15rem;
+}
+
+section{
+    margin-top: 2rem;
+}
+
+.list-unstyled li{
+    padding: 1.5rem;
+    border: 1px solid #d9534f;
+}
+
+.list-unstyled li{
+    text-decoration: none;
+    color:black;
+}
+
+.list-unstyled li a:hover{
+    color: #323232;
+}
+
+
+/*KARTICE*/
+#i_kartice{
+    border: 3px solid orange;
+}
+
+
+
+
+#footerlink{
+    text-decoration: none;
+}
+
+#onamatekst{
+    font-size: 20px;
+}
+
+
+body.lb-disable-scrolling {
+    overflow: hidden;
+}
+
+#glr{
+    height: 250px;
+    width: 450px;
+    box-shadow: 5px 5px 10px #d9534f
+}
+
+
+.active, .social-media:hover{
+    color: rgb(92, 54, 0) !important;
+    background-color: rgba(189, 114, 8, 0.712) !important;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+
+#linija{
+    border: 2px solid #e36414;
+}
+
+.my-title{
+    background-color: blue;
+    padding: 0 0.3rem;
+}
+
+input.focus, textarea.focus{ /*unos ime i prezime box*/
+    box-shadow: 0 0 0 0.25rem rgba(53,76,42,.53) !important;
+    border: 1px solid black;
+}
+
+/*<button type="button" class="btn btn-outline-info" style="background-color: chartreuse;">Info</button>*/
